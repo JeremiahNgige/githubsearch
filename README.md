@@ -1,6 +1,12 @@
 # GithubSearch
 
+This is a Web App where a user can search for a github account and the account repositories and profile will be displayed.<br> 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+
+## Installation
+
+    To intall the web app git clone the project as shown bellow 
+     git clone <https://github.com/JeremiahNgige/quotes.git>
 
 ## Development server
 
