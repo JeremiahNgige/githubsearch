@@ -1,9 +1,9 @@
-<div class="starter-template text-xs-center">
-    <app-search (userUpdated)="search($event)"></app-search>
-  </div>
+
   
   <body>
+    
     <div class="container">
+     <app-search (userUpdated)="search($event)"></app-search>
       <ng-progress></ng-progress>
   
       <div class="container" *ngIf="searchUsers">
