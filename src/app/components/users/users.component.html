@@ -1,11 +1,14 @@
-<app-search (userUpdated)="search($event)"></app-search>
+<div class="m-x-auto">
+
+  <div class="starter-template text-xs-center">
+    <app-search (userUpdated)="search($event)"></app-search>
+  </div>
+
+</div>
   
   <section>
     
     <div class="container">
-     
-     
-  
       <div class="container" *ngIf="searchUsers">
         <h4 class="container ">{{githubUsers.name}}</h4>
         <div class="container-sm">
