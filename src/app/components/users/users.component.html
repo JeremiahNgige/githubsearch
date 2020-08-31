@@ -1,9 +1,9 @@
-
+<app-search (userUpdated)="search($event)"></app-search>
   
-  <body>
+  <section>
     
     <div class="container">
-     <app-search (userUpdated)="search($event)"></app-search>
+     
      
   
       <div class="container" *ngIf="searchUsers">
@@ -86,4 +86,4 @@
           </div>
       </div>
     </div>
-  </body>
+  </section>
